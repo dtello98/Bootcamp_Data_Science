@@ -24,7 +24,7 @@ print(capitales)
 
 # Eliminar un par clave-valor
 del capitales['Argentina']
-capital_eliminada = capitales.pop('Ecuador','NO EXISTE')
+capital_eliminada = capitales.pop('Ecuador','NO EXISTE') #Si no encuentra "Mexico", imprimir "No existe"
 print(f'Se elimino la capital {capital_eliminada}')
 print(capitales)
 
@@ -41,3 +41,5 @@ for valor in capitales.values():
 # por clave valor
 for clave,valor in capitales.items():
     print(f'La capital de {clave} es {valor}')
+
+print(capitales.items())
