@@ -1,1 +1,4 @@
-pandas
+requests
+tabulate
+prefect
+mysql-connector-python
