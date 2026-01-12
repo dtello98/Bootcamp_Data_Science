@@ -1,5 +1,0 @@
-requests
-mysql-connector-python
-tabulate
-python-dotenv
-selenium
